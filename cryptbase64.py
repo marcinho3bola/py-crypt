@@ -92,7 +92,7 @@ else:
 		print (c+'[!]file already encrypted\n')
 		sys.exit()
 
-b = g + "#Encrypted by marcinho3bola\n#GitHub: https://Github.com/marcinho3bola\nimport base64\nexec(base64.b64decode('" + a + "'))"
+b = "#Encrypted by marcinho3bola\n#GitHub: https://Github.com/marcinho3bola\nimport base64\nexec(base64.b64decode('" + a + "'))"
 c = file.replace('.py', '_enc.py')
 d = open(c, 'w')
 d.write(b)
